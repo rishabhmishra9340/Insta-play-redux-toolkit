@@ -1,0 +1,46 @@
+#next{
+    background-color: transparent;
+    width: 35px;
+    height: 39px;
+    padding: 0px;
+}
+#next img{
+    width: 100%;
+    height: 100%;
+}
+#prev{
+    background-color: transparent;
+    padding: 0px;
+    width: 35px;
+    height: 39px;
+}
+#prev img{
+    width: 100%;
+    height: 100%;
+}
+.button-num{
+    background-color:transparent;
+    justify-content: space-around;
+    border: 1px solid transparent !important;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 4px 20px;
+}
+.buttons{
+    display: flex;
+    width: 100% !important;
+    justify-content: center;
+    padding-top: 30px;
+    border: none !important;
+    align-items: center;
+}
+.button-num{
+   color: white;
+}
+
+#active{
+    color: maroon;
+    text-decoration: underline;
+}

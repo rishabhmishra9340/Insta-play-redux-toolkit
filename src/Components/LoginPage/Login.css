@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: #000000 !important;
+}
+#body-1{
+    background: #000;
+}
+.contain{
+    width: 100%;
+    
+}
+.nav-insta{
+    width: 100%;
+    padding: 20px;
+    background-color: #263f61;
+}
+.nav-insta img{
+    height: 40px;
+    width: 140px;
+}
+
+
+
+.formContainer {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 0px rgb(63 63 68 / 5%);
+    border-radius: 16px;
+    padding: 32px;
+   
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.24px;
+    color: #263238;
+}
+
+p {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #546E7A;
+}
+ 
+ input {
+    margin-top: 19px;
+    margin-bottom: 25px;
+    padding: 16px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    border-radius: 16px;
+    outline-color: #FF7D65;
+    
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #546E7A;
+} 
+
+#input-user{
+    margin-bottom: 20px;
+    width: 100%;
+}
+#input-pass{
+    margin-bottom: 30px;
+}
+
+button {
+    margin-top: 24px;
+   
+    background: #FF7D65;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.31);
+    border-radius: 16px;
+    padding: 7px 219px;
+    border: 1px solid transparent;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.errorMessage {
+    color:#ff0000 ;
+    border-radius: 5px;
+}
+
+
+@media all and (max-width:992px){
+    .formContainer{
+        
+        left: 0px;
+        top: 100px;
+        width: 100%;
+        
+    }
+}
+
+
